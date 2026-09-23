@@ -31,3 +31,14 @@ npm run build
 - `/archive/:id` — individual archive entry
 
 The visual direction is intentionally editorial and art-led rather than dashboard/SaaS-like: warm paper tones, serif display typography, asymmetric image layouts and museum/archive metadata conventions.
+
+
+## Vercel deployment
+
+This folder is ready to commit directly to GitHub.
+
+- Do not commit `node_modules`.
+- Vercel installs dependencies itself.
+- Build command: `npm run build`
+- Output directory: `dist`
+- `vercel.json` includes the SPA fallback required for React Router routes.
